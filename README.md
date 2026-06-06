@@ -2,8 +2,6 @@
 
 A fully connected, formula-driven inventory management workbook built in Microsoft Excel. All data flows automatically between sheets — update a product cost, add a transaction, or change a reorder level and every dependent sheet recalculates instantly with no manual input required.
 
-![Reports](screenshots/reports.png)
-![Order](screenshots/order.png)
 ---
 
 ## Overview
