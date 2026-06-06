@@ -29,7 +29,7 @@ Master data table. The single source of truth for all product attributes.
 
 | Column | Description |
 |---|---|
-| ProductID | Unique identifier (P001 – P020) |
+| ProductID | Unique identifier |
 | Product Name | Display name |
 | Category | One of 6 categories |
 | Cost/Unit ($) | Unit cost — change here to update all stock values automatically |
@@ -38,8 +38,6 @@ Master data table. The single source of truth for all product attributes.
 
 **Categories:** Electronics, Lifestyle, Health & Beauty, Apparel, Stationery, Food & Drink
 
-**Suppliers:** NovaBrew Supplies, TechLink Distributors, PureGlow Imports, UrbanCraft Co., GreenEdge Nurseries, PageMaster Supplies, NutriPeak Foods, EcoRoot Imports, ActiveCore Wholesale
-
 ---
 
 ### Transactions
@@ -47,7 +45,7 @@ The movement log. Every stock event is recorded here as a single row.
 
 | Column | Description |
 |---|---|
-| TransID | Unique transaction ID (T001 – T081) |
+| TransID | Unique transaction ID |
 | Date | Transaction date (DD/MM/YYYY) |
 | ProductID | Links to Products sheet |
 | Site | Store A, Store B, or Store C |
@@ -156,22 +154,6 @@ Calculates how many units to order per site.
 | Inventory rows | 60 |
 | Macros / VBA | None |
 | External dependencies | None |
-| Theme | Midnight Teal (`#085041`, `#0F6E56`, `#1D9E75`, `#5DCAA5`) |
-
----
-
-## Color legend
-
-| Color | Hex | Meaning |
-|---|---|---|
-| Deep teal | `#085041` | Sheet headers and titles |
-| Store A | `#0F6E56` | Store A accent |
-| Store B | `#1D9E75` | Store B accent |
-| Store C | `#5DCAA5` | Store C accent |
-| Tint | `#E1F5EE` | Alternating row fill |
-| Good | `#0F6E56` | Health status: Good |
-| Warning | `#BA7517` | Health status: Needs Attention |
-| Critical | `#993C1D` | Health status: Critical |
 
 ---
 
@@ -196,4 +178,4 @@ This workbook was designed as a dummy dataset demonstration of a fully formula-c
 
 ## License
 
-This project is released for educational and demonstration purposes. The data is entirely fictional — all product names, supplier names, and transaction figures are made up.
+This project is released for educational and demonstration purposes.
